@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "gen-coverage": "c8 ts-node ./src/demo.test.ts",
+    "report-coverage": "c8 report",
+    "report-coverage-failing": "c8 --exclude-after-remap report"
+  },
+  "dependencies": {
+    "c8": "^8.0.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  }
+}
